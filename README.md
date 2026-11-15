@@ -1,4 +1,8 @@
+> **Not:** Bu proje, 2026 yılı güz döneminde Gazi Üniversitesi BMT-317 Algoritmalar dersi kapsamında geliştirilmiştir.
+
 # BMT317 - Sıralama Algoritmaları Performans Karşılaştırması
+
+![Status](https://img.shields.io/badge/Status-Completed-success.svg) ![Language](https://img.shields.io/badge/Language-C++-blue.svg) ![Build](https://img.shields.io/badge/Build-CMake-lightgrey.svg)
 
 Bu proje, Gazi Üniversitesi Teknoloji Fakültesi BMT317 Algoritmalar dersi kapsamında, farklı sıralama algoritmalarının performanslarını (çalışma süresi, karşılaştırma sayısı ve veri hareketi) deneysel olarak analiz etmek amacıyla hazırlanmıştır.
 
@@ -31,6 +35,6 @@ Proje CMake tabanlı bir CLion projesi olarak geliştirilmiştir. Testleri tekra
 
 **CLion Üzerinden Çalıştırma:**
 1. CLion'da projeyi `Open` diyerek klasör olarak açın.
-2. CMake profili otomatik olarak yüklenecektir. Sağ üst köşeden `SortingAlgorithmsComparison` hedefini (target) seçin.
+​2. CMake profili otomatik olarak yüklenecektir. Sağ üst köşeden `SortingAlgorithmsComparison` hedefini (target) seçin.
 3. Çalıştırmak için `Run` butonuna basın.
 4. Konsolda hangi boyutların işlendiği adım adım yazacak ve bitiminde proje kök dizininde `deney_sonuclari.csv` dosyası oluşacaktır.
